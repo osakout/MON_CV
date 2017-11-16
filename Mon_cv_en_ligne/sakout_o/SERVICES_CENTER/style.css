@@ -1,0 +1,427 @@
+@font-face /* téléchargement de la police sur un navigateur */
+{
+	font-family: "REZ";
+	src: url('polices/REZ.ttf');
+}
+header
+{
+	font-family: "REZ";
+    margin-bottom:40px;
+}
+#titre_principal img
+{
+    width: 190px;
+    height: 100px;
+}
+#titre_principal
+{
+    display: flex;
+	flex-direction: row;
+}
+body
+{
+    margin-left: 40px;
+}
+/*nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+nav
+{
+	position: absolute;
+	right: 0px;
+	top: 70px;
+}
+mon code onglet*/
+/* Début code onglets */
+#onglets
+{
+        position : absolute;
+        border : 1px solid transparent;
+        padding : 0;
+        list-style-type : none;
+        right: 10px;
+        margin-top : 0;
+        width : 430px;
+}
+
+#onglets li
+{
+    display: flex;
+    float : left;
+    height : 30px;
+    background-color: #F4F9FD;
+    margin : 2px 2px 0 2px !important;
+    margin : 1px 2px 0 2px;
+    border : 2px solid #000000;
+}
+#onglets li.active
+{
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+}
+#onglets a
+{
+    display : block;
+    color : #000000;
+    text-decoration : none;
+    padding : 8px;
+}
+#onglets li:hover
+{
+    background : #C0C0C0;
+}
+#menu
+{
+        border-bottom : 2px solid #000000;
+        padding-bottom : 34px;
+}
+/* Fin code onglets */
+/* Page nous trouver */
+#carte
+{
+	border: 3px black solid;
+	width: 600px;
+	height: 450px;
+	margin-right: 20px;
+	margin-top: 1px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+#magasin
+{
+	border: 3px black solid;
+	width: 600px;
+	height: 450px;
+	margin-top: 1px;
+	margin-bottom: 20px;
+}
+
+#corp
+{
+
+	background-color: #DCDCDC;
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 1270px;
+	border: 2px grey solid;
+}
+#visuel
+{
+    display: flex;
+}
+#adresse h1
+{
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 1140px;
+    height: 30px;
+    font-family: "REZ" ;
+    border-bottom: 2px grey solid ;
+}
+/* Fin page nous trouver */
+/* Page index */
+#body
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+}
+#tel1
+{
+    border: 3px grey solid;
+    border-radius: 32px;
+    box-shadow: 5px 5px 20px grey;
+    width: 300px;
+    height: 374px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+#tel2
+{
+    border: 3px grey solid;
+    border-radius: 32px;
+    box-shadow: 5px 5px 20px grey;
+    width: 300px;
+    height: 374px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+#tel3
+{
+    border: 3px grey solid;
+    border-radius: 32px;
+    box-shadow: 5px 5px 20px grey;
+    width: 300px;
+    height: 374px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+#tel4
+{
+    border: 3px grey solid;
+    border-radius: 32px;
+    box-shadow: 5px 5px 20px grey;
+    width: 300px;
+    height: 374px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+#tel5
+{
+    border: 3px grey solid;
+    border-radius: 32px;
+    box-shadow: 5px 5px 20px grey;
+    width: 300px;
+    height: 374px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+#tel6
+{
+    border: 3px grey solid;
+    border-radius: 32px;
+    box-shadow: 5px 5px 20px grey;
+    width: 300px;
+    height: 374px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+#tel7
+{
+    border: 3px grey solid;
+    border-radius: 32px;
+    box-shadow: 5px 5px 20px grey;
+    width: 300px;
+    height: 374px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+#tel8
+{
+    border: 3px grey solid;
+    border-radius: 32px;
+    box-shadow: 5px 5px 20px grey;
+    width: 300px;
+    height: 374px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+#tel9
+{
+    border: 3px grey solid;
+    border-radius: 32px;
+    box-shadow: 5px 5px 20px grey;
+    width: 300px;
+    height: 374px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+/* Code "slide" onglet */
+#TEL {
+  display: block;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 0 20px 20px 0;
+  font-family: "Arial";
+  font-size: larger;
+}
+#TEL figcaption {
+  position: absolute;
+  background: black;
+  background: rgba(0,0,0,0.75);
+  color: white;
+  opacity: 0;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition:    all 0.6s ease;
+  -o-transition:      all 0.6s ease;
+  border-radius: 0px 0px 32px 32px;
+}
+#TEL p {
+  position: absolute;
+  background: black;
+  background: rgba(0,0,0,0.75);
+  color: white;
+  opacity: 0;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition:    all 0.6s ease;
+  -o-transition:      all 0.6s ease;
+  
+}
+#TEL p:hover
+{
+    background-color: rgba(117, 117, 117, 0.5);
+}
+#TEL figcaption:hover
+{
+    background-color: rgba(117, 117, 117, 0.5);
+}
+#TEL:hover figcaption {
+  opacity: 1;
+}
+#TEL:hover p {
+  opacity: 1;
+}
+#TEL:before {
+  content: "?";
+  position: absolute;
+  font-weight: 800;
+  background: black;
+  background: rgba(255,255,255,0.75);
+  text-shadow: 0 0 5px white;
+  color: black;
+  width: 24px;
+  height: 24px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius:    12px;
+  border-radius:         12px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  -moz-transition: all 0.6s ease;
+  opacity: 0.75;
+  border: 2px solid black;
+  font-family: Arial;
+}
+#TEL:hover:before {
+  opacity: 0;
+}
+
+.cap-left:before {  bottom: 10px; left: 10px; }
+.cap-left figcaption { bottom: 0; left: -30%; }
+.cap-left:hover figcaption { left: 0; }
+
+.cap-right:before { bottom: 10px; right: 10px; }
+.cap-right figcaption { bottom: 0; right: -30%; }
+.cap-right:hover figcaption { right: 0; }
+
+.cap-top:before { top: 10px; left: 10px; }
+.cap-top figcaption { left: 0; top: -30%; }
+.cap-top:hover figcaption { top: 0; }
+
+#TEL:before { bottom: 50px; left: 10px; }
+#TEL figcaption { left: 40px; bottom: 8%;}
+#TEL:hover figcaption { bottom: 20; }
+#TEL:before { bottom: 50px; left: 50px; }
+#TEL p { left: 40px; bottom: 12%;}
+#TEL:hover p { bottom: 20; }
+#TEL a
+{
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 305px;
+  height: 28px;
+  text-align: center;
+  padding-top: 8px;
+}
+#TEL a:hover
+{
+  color: black;
+}
+/* Fin code "slide" onglet */
+#body h1
+{
+    font-family: "Arial";
+    color: #efefef;
+    border: 3px solid grey;
+    border-radius: 32px;
+    text-align: center;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+ 
+}
+/* Fin page index */
+/* Debut pas pieces detachees */
+#cote li:hover
+{
+    background-color: #C0C0C0;
+
+}
+#cote li
+{
+    border-bottom: 1px white solid;
+    list-style-type: none;
+    border: 2px black solid;
+    padding-left: 0px;
+    width: 110px;
+    text-align: center;
+    background-color: #F4F9FD;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+#cote a
+{
+    border-right: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Arial";
+    color: black;
+}
+#cote li.actives
+{
+    border-right: 2px white solid;
+    background-color: white;
+}
+#cote
+{
+    float: left;
+}
+section
+{
+    border: 2px black solid;
+    padding-left: 20px;
+    margin-left: 152px;
+    height: 100%;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+article img
+{
+    width: 200px ;
+    height: 200px ;
+}
+article
+{
+    border: 2px #e1e1e1 solid;
+    box-shadow: 1px 1px 10px grey inset;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+aside
+{
+    display: block;
+    float: left;
+    margin-left: 35%;
+    margin-top: -300px;
+}

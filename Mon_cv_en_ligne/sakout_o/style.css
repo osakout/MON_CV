@@ -1,0 +1,174 @@
+/*@font-face
+{
+    font-family: 'ka1';
+    src: url('polices/ka1.ttf');
+}
+@font-face
+{
+    font-family: 'SF_Pixelate';
+    src: url('polices/SF_Pixelate.ttf');
+}
+@font-face
+{
+    font-family: 'apple';
+    src: url('polices/apple.ttf');
+}
+@font-face
+{
+    font-family: 'Menlo-Regular';
+    src: url('polices/Menlo-Regular.ttf');
+}
+*
+{
+    color: white;
+}
+h1
+{
+    font-family: 'ka1';
+}
+h3
+{
+    font-family: 'SF_Pixelate';
+}
+h2
+{
+    font-family: 'apple';
+}
+.summary
+{
+    font-family: 'SF_Pixelate';
+}
+strong
+{
+    font-family: 'SF_Pixelate';
+}
+em
+{
+    font-family: 'SF_Pixelate';
+}
+.intro
+{
+    font-family: 'Menlo-Regular';
+}
+
+body
+{
+    background-image: url("images/background.jpg"), url("images/background2.png");
+    background-attachment: scroll, fixed;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% 10%, 100% 100%;   
+}
+*/
+*
+{
+    font-family: "Arial";
+    color: white;
+}
+body
+{
+    background-image: url("images/background-header.jpg"), url("images/background4.jpg");
+    background-attachment: scroll, fixed;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% 11%, 100% 100%;
+    background-color: white;
+}
+header
+{
+    width: auto;
+}
+.contact
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0,0,0);
+    margin-top: 0;
+    color: white;
+    border-radius: 18px;
+}
+.contact a
+{
+    margin-right: 30px;
+}
+.intro
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.element1
+{
+    text-align: center;
+}
+.corp
+{
+    background-color: rgba(206, 188, 184, 0.5);
+    border-radius: 10px;
+    padding: 12px;
+    margin: 30px;
+}
+ul
+{
+    list-style-type: none;
+}
+.intro h1
+{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    width: 300px;
+}
+.intro p
+{
+    margin-top: 50px;
+}
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+nav li a
+{
+    display: block;
+    width: 220px;
+    background-color:  rgba(0, 101, 193, 0.5);
+    text-decoration: none;
+    border-radius: 10px 0px 0px 10px;
+    padding: 4px 8px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+li a:hover
+{
+    background-color:  #555;
+    color: white;
+}
+#last
+{
+    border-bottom: none;
+}
+em
+{
+    font-style: italic;
+    font-weight: bold;
+}
+.contact a:hover
+{
+    background-color: #555;
+}
+.expro a
+{
+    display: block;
+    width: 100px;
+    background-color:  rgba(0, 101, 193, 0.5);
+    text-align: center;
+    height: 20px;
+    margin-left: 150px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+			   
